@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Pracovni-Stanice-VNC",
+    "ip": "192.168.1.20",
+    "protocol": "VNC",
+    "port": 5900
+  },
+  {
+    "name": "Server-Hlavni",
+    "ip": "192.168.1.10",
+    "protocol": "RDP",
+    "port": 3389
+  },
+  {
+    "name": "Mikrotik-Router",
+    "ip": "192.168.1.1",
+    "protocol": "SSH",
+    "port": 22,
+    "key": "C:\\Keys\\id_rsa.ppk"
+  },
+  {
+    "name": "Web-NAS",
+    "ip": "192.168.1.50",
+    "protocol": "HTTPS",
+    "port": 5001
+  }
+]
